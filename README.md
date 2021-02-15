@@ -5,10 +5,10 @@ En basit haliyle, SSL/TLS yordamıyla SMTP mail gönderimi
 
 Usage // Kullanımı
 
-$smtp = new smtp();
-$smtp->host = 'localhost';
-$smtp->type = 'ssl';
-$smtp->port = 465;
-$smtp->user = 'info@domain.name';
-$smtp->pass = 'password';
-$smtp->send('to@other.mail', 'Message Subject', 'Message Content');
+$smtp = new smtp();<br>
+$smtp->host = 'localhost';<br>
+$smtp->type = 'ssl';<br>
+$smtp->port = 465;<br>
+$smtp->user = 'info@domain.name';<br>
+$smtp->pass = 'password';<br>
+$smtp->send('to@other.mail', 'Message Subject', 'Message Content');<br>
